@@ -4,7 +4,7 @@ icon: /fontawesome/solid/face-smile-wink
 
 # About 🥳
 
-**Welcome, I'm Wnc.**
+**Welcome, I'm alexy.**
 
 ## Some Tags
 
