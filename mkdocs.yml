@@ -1,11 +1,11 @@
-site_name: wnc 的咖啡馆
-site_url: https://WncFht.github.io/notes/
-site_description: wnc 的个人网站
-site_author: wnc
-repo_name: wnc's café
-repo_url: https://github.com/WncFht/notes/
+site_name: alexy-dot 
+site_url: https://github.com/alexy-dot/alexy-dot.github.io
+site_description: alexy-dot 的个人网站
+site_author: alexy-dot
+repo_name: alexy-dot's café
+repo_url: https://github.com/alexy-dot/alexy-dot.github.io
 # edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2024 - Present <a href="https://github.com/WncFht/" target="_blank" rel="noopener">WncFht</a>
+copyright: Copyright &copy; 2024 - Present <a href="https://github.com/alexy-dot/" target="_blank" rel="noopener">WncFht</a>
 
 theme:
   name: material
