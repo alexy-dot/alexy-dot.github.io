@@ -8,7 +8,7 @@ icon: /fontawesome/solid/face-smile-wink
 
 ## Some Tags
 
-- 上海交通大学密西根学院 2024 级本科生
+- 北京理工大学徐特立学院 2024 级本科生
 - INTJ (Maybe)
 - Interested in AI, Robot and ...
 
