@@ -8,7 +8,7 @@ icon: /fontawesome/solid/face-smile-wink
 
 ## Some Tags
 
-- 北京理工大学徐特立学院 2024 级本科生 -test02
+- 北京理工大学徐特立学院 2024 级本科生 -test03
 - INTJ (Maybe)
 - Interested in AI, Robot and ...
 
