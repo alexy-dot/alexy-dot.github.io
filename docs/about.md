@@ -8,7 +8,8 @@ icon: /fontawesome/solid/face-smile-wink
 
 ## Some Tags
 
-- 北京理工大学徐特立学院 2024 级本科生 -test04
+- 北京理工大学徐特立学院 2024 级本科生   - 我诞生啦
+6 自动的？
 
 
 > [!info]- Ways to befriend with me
