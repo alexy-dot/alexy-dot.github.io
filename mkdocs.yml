@@ -321,7 +321,7 @@ nav:
           - AI/CS231n/Linear classification-Support Vector Machine, Softmax.md
           - AI/CS231n/Numpy.md
       - EECS 498-007:
-          - AI/EECS 498-007/KNN.md
+          - AI/EECS 498-007/KNN.md 
           - AI/EECS 498-007/Pytorch.md
           - AI/EECS 498-007/linear_classifer.md
       - FFB6D:

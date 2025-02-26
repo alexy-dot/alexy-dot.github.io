@@ -14,12 +14,12 @@ comments: false
 <div class="flink-list">
 
 <div class="flink-list-item">
-    <a href="https://WncFht.github.io/" title="Wnc's Notebook" target="_blank">
+    <a href="https://alexy-dot.github.io/" title="Gsy's Notebook" target="_blank">
         <div class="flink-item-icon">
-            <img src="https://raw.githubusercontent.com/WncFht/picture/main/picture/微信图片_20241003201746.jpg" alt="Wnc">
+            <img src="https://raw.githubusercontent.com/WncFht/picture/main/picture/微信图片_20241003201746.jpg" alt="Gsy">
         </div>
-        <div class="flink-item-name heti-skip">Wnc 的咖啡馆</div>
-        <div class="flink-item-desc">我自己！</div>
+        <div class="flink-item-name heti-skip">Gsy's Land</div>
+        <div class="flink-item-desc">我自己!</div>
     </a>
 </div>
 
