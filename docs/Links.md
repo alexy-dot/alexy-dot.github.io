@@ -14,7 +14,7 @@ comments: false
 <div class="flink-list">
 
 <div class="flink-list-item">
-    <a href="https://alexy-dot.github.io/" title="Gsy's Notebook" target="_blank">
+    <a href="https://alexy-dot.github.io/" title="Gsy's blog" target="_blank">
         <div class="flink-item-icon">
             <img src="https://raw.githubusercontent.com/WncFht/picture/main/picture/微信图片_20241003201746.jpg" alt="Gsy">
         </div>
