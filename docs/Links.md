@@ -16,7 +16,9 @@ comments: false
 <div class="flink-list-item">
     <a href="https://alexy-dot.github.io/" title="Gsy's blog" target="_blank">
         <div class="flink-item-icon">
-            <img src="https://raw.githubusercontent.com/WncFht/picture/main/picture/微信图片_20241003201746.jpg" alt="Gsy">
+            <img src="
+             https://raw.githubusercontent.com/alexy-dot/pictures/main/WechatIMG4078.jpg
+             " alt="Gsy">
         </div>
         <div class="flink-item-name heti-skip">Gsy's Land</div>
         <div class="flink-item-desc">我自己!</div>
