@@ -160,6 +160,44 @@
   color: #caedff !important;
 }
 
+.home-section {
+  max-width: 52rem;
+  margin: 2.4rem auto 0;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.home-card {
+  min-height: 7.5rem;
+  padding: 1rem;
+  border: 1px solid rgba(12, 114, 183, 0.16);
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.home-card h3 {
+  margin-top: 0;
+}
+
+[data-md-color-scheme="slate"] .home-card {
+  border-color: rgba(139, 215, 255, 0.18);
+  background: rgba(17, 34, 54, 0.54);
+}
+
+.home-contact {
+  padding-bottom: 2.4rem;
+}
+
 .md-copyright {
   font-size: .56rem;
+}
+
+@media screen and (max-width: 44rem) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
 }

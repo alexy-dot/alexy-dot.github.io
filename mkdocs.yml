@@ -11,8 +11,8 @@ theme:
   name: material
   language: zh
   custom_dir: overrides
-  logo: assets/images/avatar.png
-  favicon: assets/images/avatar.png
+  logo: assets/images/site-icon.png
+  favicon: assets/images/site-icon.png
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
@@ -94,6 +94,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/alexy-dot
       name: GitHub
+    - icon: fontawesome/brands/weixin
+      link: about/#contact
+      name: WeChat
 
 extra_css:
   - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css

@@ -6,12 +6,14 @@ comments: false
 
 # Blog
 
-This section is ready for new posts.
+这里会放之后的新文章。
 
-## Coming Soon
+## 分类计划
 
-New notes will be added here after the old imported content has been cleared out.
+- **Notes**: 学习笔记、课程记录、读书记录
+- **Projects**: 项目过程、代码问题、工具配置
+- **Life**: 日常随笔、阶段总结、一些小想法
 
-## Writing Path
+## 第一篇文章怎么写
 
-Put future posts under `docs/Blogs/posts/`, then add them to `mkdocs.yml` when they are ready to publish.
+新文章可以放到 `docs/Blogs/posts/`。等文章准备好以后，再把它加进 `mkdocs.yml` 的导航里发布。
