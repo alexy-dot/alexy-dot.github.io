@@ -1,15 +1,15 @@
-site_name: alexy-dot 
-site_url: https://github.com/alexy-dot/alexy-dot.github.io
-site_description: alexy-dot 的个人网站
+site_name: alexy-dot's café
+site_url: https://alexy-dot.github.io/
+site_description: alexy-dot 的个人网站与学习笔记
 site_author: alexy-dot
-repo_name: alexy-dot's café
+repo_name: alexy-dot/alexy-dot.github.io
 repo_url: https://github.com/alexy-dot/alexy-dot.github.io
 # edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2024 - Present <a href="https://github.com/alexy-dot/" target="_blank" rel="noopener">WncFht</a>
+copyright: Copyright &copy; 2024 - Present <a href="https://github.com/alexy-dot/" target="_blank" rel="noopener">alexy-dot</a>
 
 theme:
   name: material
-  language: en
+  language: zh
   custom_dir: overrides
   icon:
     logo: material/coffee
@@ -57,14 +57,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default # 日间模式
       primary: white # 上方的
-      accent: indigo # 链接等可交互元件的高亮色
+      accent: light blue # 链接等可交互元件的高亮色
       toggle:
         icon: material/brightness-7 # 图标
         name: light mode # 鼠标悬浮提示
     - media: "(prefers-color-scheme: dark)"
       scheme: slate # 夜间模式
       primary: black
-      accent: indigo
+      accent: light blue
       toggle:
         icon: material/brightness-4
         name: darkmode
@@ -124,8 +124,8 @@ markdown_extensions:
   #     permalink: "\ue157"
   # - pymdownx.magiclink:
   #     repo_url_shorthand: true
-  #     user: WncFht
-  #     repo: WncFht.github.io
+  #     user: alexy-dot
+  #     repo: alexy-dot.github.io
   # - pymdownx.snippets:
   #     auto_append:
   #       - includes/abbreviations.md
@@ -148,26 +148,15 @@ validation:
 
 extra:
   social:
-    # - icon: fontawesome/brands/twitter
-    #   link: https://twitter.com/
-    - icon: /fontawesome/brands/github
-      link: https://github.com/WncFht
+    - icon: fontawesome/brands/github
+      link: https://github.com/alexy-dot
       name: GitHub
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/496058922?spm_id_from=333.1007.0.0
-      name: Bilibili
-    - icon: /fontawesome/brands/zhihu
-      link: https://www.zhihu.com/people/fht-64
-      name: Zhihu
-    - icon: /fontawesome/brands/qq
+    - icon: fontawesome/brands/qq
       link: assets/images/qq.jpg
       name: QQ
-    - icon: /fontawesome/brands/weixin
+    - icon: fontawesome/brands/weixin
       link: assets/images/WeChat.jpg
       name: WeChat
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:2130212584@qq.com
-      name: Email
   # analytics:
   #   provider: google
   #   property: YOUR-ANALYTICS-ID
@@ -226,7 +215,6 @@ plugins:
   # - include_dir_to_nav:
   #     sort_file: true
   #     sort_directory: true
-  - toc
   - minify:
       minify_html: true
       minify_js: true
@@ -261,28 +249,10 @@ nav:
   - Blogs:
       - index: Blogs/index.md
       - Archives: Blogs/archives.md
-      - Posts:
-          - Blogs/posts/24-12-29.md
-          - Blogs/posts/24-12-30.md
-          - Blogs/posts/25-01-20.md
-          - Blogs/posts/FreeSplatter 代码解读.md
-          - Blogs/posts/Gaussian_Splatting_Code.md
-          - Blogs/posts/Gaussian_Splatting_复现.md
-          - Blogs/posts/OCRN.md
-          - Blogs/posts/ULIP-2.md
-          - Blogs/posts/用AI后的问题.md
-          - Blogs/posts/notes_software.md
   - Summaries:
       - Summaries/index.md
       - Weekly:
           - 2024:
-              - Summaries/2024/weekly/2024-W44-10.md
-              - Summaries/2024/weekly/2024-W45-11.md
-              - Summaries/2024/weekly/2024-W46-11.md
-              - Summaries/2024/weekly/2024-W47-11.md
-              - Summaries/2024/weekly/2024-W48-11.md
-              - Summaries/2024/weekly/2024-W49-12.md
-              - Summaries/2024/weekly/2024-W50-12.md
               - Summaries/2024/weekly/2024-W51-12.md
               - Summaries/2024/weekly/2024-W52-12.md
           - 2025:
@@ -293,8 +263,6 @@ nav:
               - Summaries/2025/weekly/2025-W05-01.md
               - Summaries/2025/weekly/2025-W08-02.md
       - Semesters:
-          - Summaries/Semesters/202409-10.md
-          - Summaries/Semesters/2024_1_1.md
           - Summaries/Semesters/2024summer_vacation.md
           - Summaries/Semesters/2025winter_vacation.md
   - Computer Basic:
@@ -311,22 +279,7 @@ nav:
           - CS_Basic/Network/Security.md
   - AI:
       - AI/index.md
-      - Basic:
-          - AI/Dive_into_Deep_Learning.md
-          - AI/SLAM14.md
-          - AI/统计学习方法.md
-      - CS231n:
-          - AI/CS231n/CS231n_notes.md
-          - AI/CS231n/Image Classification-Data-driven Approach, k-Nearest Neighbor, train_val_test splits.md
-          - AI/CS231n/Linear classification-Support Vector Machine, Softmax.md
-          - AI/CS231n/Numpy.md
-      - EECS 498-007:
-          - AI/EECS 498-007/KNN.md 
-          - AI/EECS 498-007/Pytorch.md
-          - AI/EECS 498-007/linear_classifer.md
-      - FFB6D:
-          - AI/FFB6D/FFB6D_Conda.md
-          - AI/FFB6D/FFB6D_Docker.md
+      - AI/SLAM14.md
   - Robot:
       - Robot/index.md
       - Robot/calibration.md
@@ -344,33 +297,9 @@ nav:
               - Tools/Cheat Sheet/tools/git Cheat Sheet.md
               - Tools/Cheat Sheet/tools/ip Cheat Sheet.md
               - Tools/Cheat Sheet/tools/tmux Cheat Sheet.md
-          - editors:
-              - Tools/Cheat Sheet/editors/emacs Cheat Sheet.md
-              - Tools/Cheat Sheet/editors/nano Cheat Sheet.md
-              - Tools/Cheat Sheet/editors/org Cheat Sheet.md
-              - Tools/Cheat Sheet/editors/vim Cheat Sheet.md
           - languages:
               - Tools/Cheat Sheet/languages/javascript Cheat Sheet.md
               - Tools/Cheat Sheet/languages/python Cheat Sheet.md
               - Tools/Cheat Sheet/languages/vimscript Cheat Sheet.md
-      - AI:
-          - Tools/AI/prompt.md
-          - Tools/AI/prompt_writing.md
-      - Blog:
-          - Tools/Blog/Mkdocs_Material.md
-      - Environment:
-          - Tools/Environment/Arch_setup.md
-          - Tools/Environment/Ubuntu_setup.md
-          - Tools/Environment/environment.md
-          - Tools/Environment/obsidian_setup.md
-      - Make:
-          - Tools/Make/CMake.md
-          - Tools/Make/Makeflie.md
-      - Others:
-          - Tools/Others/Chezmoi.md
-          - Tools/Others/SSH.md
-          - Tools/Others/zotero_使用指南.md
-      - Terminal:
-          - Tools/Terminal/Tabby_Zsh.md
   - Tags:
       - Tags/index.md

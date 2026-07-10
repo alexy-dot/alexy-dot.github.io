@@ -14,27 +14,16 @@ comments: false
 <div class="flink-list">
 
 <div class="flink-list-item">
-    <a href="https://alexy-dot.github.io/" title="Gsy's blog" target="_blank">
+    <a href="https://alexy-dot.github.io/" title="alexy-dot's blog" target="_blank">
         <div class="flink-item-icon">
             <img src="
              https://raw.githubusercontent.com/alexy-dot/pictures/main/WechatIMG4078.jpg
-             " alt="Gsy">
+             " alt="alexy-dot">
         </div>
-        <div class="flink-item-name heti-skip">Gsy's Land</div>
+        <div class="flink-item-name heti-skip">alexy-dot</div>
         <div class="flink-item-desc">我自己!</div>
     </a>
 </div>
-
-<div class="flink-list-item">
-    <a href="http://donotknowsjtu.top" title="donotknow" target="_blank">
-        <div class="flink-item-icon">
-            <img src="https://raw.githubusercontent.com/WncFht/picture/main/picture/logo.gif" alt="donotknow">
-        </div>
-        <div class="flink-item-name heti-skip">donotknow</div>
-        <div class="flink-item-desc">DoNotKnow</div>
-    </a>
-</div>
-
 
 <div class="flink-list-item">
     <a href="https://kinnariyamamatanha.github.io/" title="Kinaari" target="_blank">
@@ -45,16 +34,5 @@ comments: false
         <div class="flink-item-desc">很厉害的学长！</div>
     </a>
 </div>
-
-<div class="flink-list-item">
-    <a href="https://microgrey.github.io/" title="MenGrey" target="_blank">
-        <div class="flink-item-icon">
-            <img src="https://raw.githubusercontent.com/WncFht/picture/main/8482f0d42ffc1f9191105bab02ca82e.jpg" alt="MenGrey">
-        </div>
-        <div class="flink-item-name heti-skip">MenGrey</div>
-        <div class="flink-item-desc">很厉害的同学！</div>
-    </a>
-</div>
-
 
 </div>

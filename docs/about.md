@@ -2,16 +2,20 @@
 icon: /fontawesome/solid/face-smile-wink
 ---
 
-# About 🥳
+# About
 
-**Welcome, I'm alexy.**
+<p align="center">
+  <img src="../assets/images/avatar.png" alt="alexy-dot avatar" width="132">
+</p>
 
-## Some Tags
+Hi, I'm **alexy-dot**.
+
+This site is my personal notebook for computer science, AI, robotics, tools, and whatever I am trying to understand a little better.
+
+## Profile
 
 - 北京理工大学徐特立学院 2024 级本科生
 
 
-> [!info]- Ways to befriend with me
-> You could find my email or qq or WeChat in the icon above.
-> 
-> Feel free to contact me!
+> [!info]- Contact
+> You can find my GitHub, QQ, and WeChat from the icons in the footer.

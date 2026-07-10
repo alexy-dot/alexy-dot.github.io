@@ -7,24 +7,24 @@ home: true
 nostatistics: true
 comments: false
 icon: material/home
+title: alexy-dot
 ---
 
 <!-- ezlinks: disable -->
 
-<br><br><br><br><br><br>
+<section class="alexy-home" markdown="1">
+<img class="alexy-home__avatar" src="assets/images/avatar.png" alt="alexy-dot avatar">
 
-<h1 style="text-align: center;">
-<span style="font-size:50px;">
-Welcome to gsy's note!
-</span>
-</h1>
+# alexy-dot
 
+<p class="alexy-home__subtitle">Personal notes, learning logs, and small experiments.</p>
 
-<span style="display: block; text-align: center; font-size: 18px;">
-[:octicons-link-16: My friends!](./Links.md) / 
-[:octicons-info-16: About Me](./about.md)
-<!-- [:material-chart-line: Statistics](javascript:toggle_statistics();) -->
-</span>
+<p class="alexy-home__actions">
+  <a class="alexy-home__link" href="./about/">About</a>
+  <a class="alexy-home__link" href="./Blogs/">Blogs</a>
+  <a class="alexy-home__link" href="./Links/">Friends</a>
+</p>
+</section>
 
 
 <!-- <div id="statistics" markdown="1" class="card" style="width: 27em; border-color: transparent; opacity: 0; margin-left: auto; margin-right: 0; font-size: 110%">
