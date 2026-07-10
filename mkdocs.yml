@@ -1,110 +1,70 @@
-site_name: alexy-dot's café
+site_name: alexy-dot's blog
 site_url: https://alexy-dot.github.io/
-site_description: alexy-dot 的个人网站与学习笔记
+site_description: alexy-dot 的个人博客
 site_author: alexy-dot
 repo_name: alexy-dot/alexy-dot.github.io
 repo_url: https://github.com/alexy-dot/alexy-dot.github.io
-# edit_uri: edit/main/docs/
+edit_uri: edit/master/docs/
 copyright: Copyright &copy; 2024 - Present <a href="https://github.com/alexy-dot/" target="_blank" rel="noopener">alexy-dot</a>
 
 theme:
   name: material
   language: zh
   custom_dir: overrides
+  logo: assets/images/avatar.png
+  favicon: assets/images/avatar.png
   icon:
-    logo: material/coffee
-    repo: fontawesome/brands/git-alt
+    repo: fontawesome/brands/github
     edit: material/pencil
-
   features:
-    - content.code.annotate
     - content.code.copy
     - content.code.select
     - content.action.view
-    - content.footnote.tooltips
-    - content.tabs.link
     - header.autohide
-
-    # - navigation.tabs.sticky
-    # - navigation.sections
-
     - navigation.tracking
     - navigation.tabs
     - navigation.indexes
     - navigation.top
     - navigation.path
-
-    # - navigation.instant.prefetch
-    # - navigation.instant.preview
-    # - navigation.instant.progress
-    # - navigation.expand
-
     - toc.follow
-
     - search.highlight
     - search.share
     - search.suggest
-
   font: false
-
-  favicon: assets/images/avatar.png
-
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
         name: follow system
     - media: "(prefers-color-scheme: light)"
-      scheme: default # 日间模式
-      primary: white # 上方的
-      accent: light blue # 链接等可交互元件的高亮色
+      scheme: default
+      primary: white
+      accent: light blue
       toggle:
-        icon: material/brightness-7 # 图标
-        name: light mode # 鼠标悬浮提示
+        icon: material/brightness-7
+        name: light mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate # 夜间模式
+      scheme: slate
       primary: black
       accent: light blue
       toggle:
         icon: material/brightness-4
-        name: darkmode
+        name: dark mode
 
 markdown_extensions:
-  # - abbr
   - meta
   - def_list
   - attr_list
-  # - admonition
-  # - footnotes
   - md_in_html
   - sane_lists
   - admonition
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  # - pymdownx.caret
-  - pymdownx.critic
-  # - pymdownx.betterem
   - pymdownx.details
-  - pymdownx.snippets
-  - pymdownx.magiclink
-  # - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.inlinehilite
-  # - markdown.extensions.attr_list
-  - toc:
-      permalink: true
-      toc_depth: 3
-  # - pymdownx.superfences:
-  #     custom_fences:
-  #       - name: mermaid
-  #         class: mermaid
-  #         format:
-  #           pymdownx.superfences.fence_code_format # 代码块高亮插件
-  - pymdownx.highlight: # 代码块高亮
+  - pymdownx.highlight:
       anchor_linenums: true
-      linenums: true # 显示行号
-      auto_title: true # 显示编程语言名称
+      linenums: true
+      auto_title: true
       linenums_style: pymdownx-inline
       line_spans: __span
       pygments_lang_class: true
@@ -115,26 +75,9 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.arithmatex:
-      generic: true
-
-  # - markdown.extensions.toc:
-  #     slugify:
-  #       !!python/object/apply:pymdownx.slugs.slugify { kwds: { case: lower } }
-  #     permalink: "\ue157"
-  # - pymdownx.magiclink:
-  #     repo_url_shorthand: true
-  #     user: alexy-dot
-  #     repo: alexy-dot.github.io
-  # - pymdownx.snippets:
-  #     auto_append:
-  #       - includes/abbreviations.md
-
-  # - pymdownx.superfences:
-  #     custom_fences:
-  #       - name: mermaid
-  #         class: mermaid
-  #         format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+      toc_depth: 3
 
 validation:
   nav:
@@ -142,7 +85,7 @@ validation:
     not_found: warn
     absolute_links: info
   links:
-    not_found: ignore
+    not_found: warn
     absolute_links: ignore
     unrecognized_links: ignore
 
@@ -151,155 +94,36 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/alexy-dot
       name: GitHub
-    - icon: fontawesome/brands/qq
-      link: assets/images/qq.jpg
-      name: QQ
-    - icon: fontawesome/brands/weixin
-      link: assets/images/WeChat.jpg
-      name: WeChat
-  # analytics:
-  #   provider: google
-  #   property: YOUR-ANALYTICS-ID
 
 extra_css:
-  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css
-  - https://cdn.tonycrane.cc/utils/katex.min.css
   - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
-  - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
-  - css/custom.css
-  - css/tasklist.css
-  - css/card.css
-  - css/flink.css
-  - css/extra.css
-  - css/fold_toc.css
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
-
-extra_javascript:
-  - js/katex.js
-  - js/toc.js
-  - js/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.tonycrane.cc/utils/katex.min.js
-  - https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
-
-  # katex
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js
-
-  # mathjax
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml-full.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-svg-full.js
+  - css/custom.css
+  - css/flink.css
 
 plugins:
-  - bi_directional_links
-  # - ezlinks
-  - blogging:
-      locale: en
-      dirs:
-        - Blogs/posts
-      theme:
-        name: card
-      features:
-        tags:
-          index_page: tags/
-          insert: top
   - search
-  - callouts
   - glightbox:
       width: 80%
-  - statistics:
-      words_per_minute: 200
-  - heti
-  # - include_dir_to_nav:
-  #     sort_file: true
-  #     sort_directory: true
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
-      js_files:
-        - js/katex.js
-        - js/mathjax.js
-        - js/toc.js
-      css_files:
-        - css/custom.css
-        - css/tasklist.css
-        - css/card.css
-        - css/flink.css
-        - css/extra.css
-        - css/fold_toc.css
-        - css/grid cards.css
-  # - obsidian_support 不知道什么原因构建速度很慢，暂时不用
-  # - rss
   - git-revision-date-localized:
       type: datetime
       timezone: Asia/Shanghai
       enable_creation_date: true
       exclude:
         - index.md
-
-not_in_nav: Links.md
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      css_files:
+        - css/custom.css
+        - css/flink.css
 
 nav:
   - Home:
       - index.md
       - about.md
-  - Blogs:
-      - index: Blogs/index.md
-      - Archives: Blogs/archives.md
-  - Summaries:
-      - Summaries/index.md
-      - Weekly:
-          - 2024:
-              - Summaries/2024/weekly/2024-W51-12.md
-              - Summaries/2024/weekly/2024-W52-12.md
-          - 2025:
-              - Summaries/2025/weekly/2025-W01-12.md
-              - Summaries/2025/weekly/2025-W02-01.md
-              - Summaries/2025/weekly/2025-W03-01.md
-              - Summaries/2025/weekly/2025-W04-01.md
-              - Summaries/2025/weekly/2025-W05-01.md
-              - Summaries/2025/weekly/2025-W08-02.md
-      - Semesters:
-          - Summaries/Semesters/2024summer_vacation.md
-          - Summaries/Semesters/2025winter_vacation.md
-  - Computer Basic:
-      - CS_Basic/index.md
-      - CSAPP: CS_Basic/15-213/CSAPP.md
-      - C++:
-          - CS_Basic/C++/Accelerated C++.md
-          - CS_Basic/C++/C++ Basic.md
-      - CS61:
-          - CS_Basic/CS61A/CS61A.md
-          - CS_Basic/CS61A/Composing_Programs.md
-          - CS_Basic/CS61C/计算机组成与设计硬件软件接口.md
-      - Network:
-          - CS_Basic/Network/Security.md
-  - AI:
-      - AI/index.md
-      - AI/SLAM14.md
-  - Robot:
-      - Robot/index.md
-      - Robot/calibration.md
-      - Robot/kalman.md
-      - Robot/pnp.md
-  - Tools:
-      - Tools/index.md
-      - Cheat Sheet:
-          - Tools/Cheat Sheet/index.md
-          - tools:
-              - Tools/Cheat Sheet/tools/adb Cheat Sheet.md
-              - Tools/Cheat Sheet/tools/bash Cheat Sheet.md
-              - Tools/Cheat Sheet/tools/ffmpeg Cheat Sheet.md
-              - Tools/Cheat Sheet/tools/gdb Cheat Sheet.md
-              - Tools/Cheat Sheet/tools/git Cheat Sheet.md
-              - Tools/Cheat Sheet/tools/ip Cheat Sheet.md
-              - Tools/Cheat Sheet/tools/tmux Cheat Sheet.md
-          - languages:
-              - Tools/Cheat Sheet/languages/javascript Cheat Sheet.md
-              - Tools/Cheat Sheet/languages/python Cheat Sheet.md
-              - Tools/Cheat Sheet/languages/vimscript Cheat Sheet.md
-  - Tags:
-      - Tags/index.md
+  - Blog:
+      - Blogs/index.md
+      - Blogs/archives.md
+  - Links: Links.md

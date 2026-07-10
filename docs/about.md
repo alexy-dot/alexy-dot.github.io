@@ -1,21 +1,23 @@
 ---
-icon: /fontawesome/solid/face-smile-wink
+icon: fontawesome/solid/user
 ---
 
 # About
 
 <p align="center">
-  <img src="../assets/images/avatar.png" alt="alexy-dot avatar" width="132">
+  <img class="profile-avatar" src="../assets/images/avatar.png" alt="alexy-dot avatar" width="148">
 </p>
 
 Hi, I'm **alexy-dot**.
 
-This site is my personal notebook for computer science, AI, robotics, tools, and whatever I am trying to understand a little better.
+This is my personal blog. The old notes from the previous owner have been removed, and new posts will start from here.
 
-## Profile
+## Now
 
-- 北京理工大学徐特立学院 2024 级本科生
+- Building my own corner on the web
+- Keeping notes and small thoughts in public
+- Learning to make this site feel like mine
 
+## Contact
 
-> [!info]- Contact
-> You can find my GitHub, QQ, and WeChat from the icons in the footer.
+- GitHub: [alexy-dot](https://github.com/alexy-dot)

@@ -3,13 +3,15 @@ icon: fontawesome/solid/blog
 nostatistics: true
 comments: false
 ---
-# Blogs ✍
 
-!!! note "Abstract"
-    个人博客
+# Blog
 
-    本部分内容（除特别声明外）采用 [**署名-非商业性使用-保持一致 4.0 国际 (CC BY-NC-SA 4.0)**](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议进行许可。
+This section is ready for new posts.
 
-## Selected Blogs
+## Coming Soon
 
-文章目录会在新增 `docs/Blogs/posts/` 内容后继续整理。
+New notes will be added here after the old imported content has been cleared out.
+
+## Writing Path
+
+Put future posts under `docs/Blogs/posts/`, then add them to `mkdocs.yml` when they are ready to publish.

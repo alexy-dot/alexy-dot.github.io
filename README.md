@@ -1,21 +1,19 @@
-# alexy-dot.github.io
+# alexy-dot's blog
 
-This is the source branch for [alexy-dot.github.io](https://alexy-dot.github.io/).
+Source for [alexy-dot.github.io](https://alexy-dot.github.io/).
 
 Do not edit `gh-pages` by hand. Write content on `master`, push it, and let GitHub Actions build the static site into `gh-pages`.
 
-## Install
+## Local Preview
 
 ```shell
-conda create -f environment.yml
-
-pip cache purge
+pip install -r requirements.txt
+mkdocs serve
 ```
 
 ## Writing Flow
 
-- Put posts under `docs/Blogs/posts/`.
+- Put future posts under `docs/Blogs/posts/`.
 - Put reusable images under `docs/assets/images/`.
-- Add new pages to `mkdocs.yml` only after the Markdown file exists.
-- Preview locally with `mkdocs serve`.
+- Add a page to `mkdocs.yml` only after the Markdown file exists.
 - Deploy by pushing `master`; `.github/workflows/mkdocs-deploy.yml` runs `mkdocs gh-deploy --force`.

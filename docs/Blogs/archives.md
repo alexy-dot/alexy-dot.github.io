@@ -6,4 +6,4 @@ comments: false
 
 # Archives
 
-{{ blog_content }}
+No posts yet.
