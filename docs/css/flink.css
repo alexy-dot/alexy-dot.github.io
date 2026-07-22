@@ -65,6 +65,17 @@
   height: 60px;
   border-radius: 35px;
 }
+.flink-item-icon--avatar {
+  background: url("../assets/images/avatar.png") center / cover no-repeat;
+}
+.flink-item-icon--lolita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f9e2e8, #e7c6d8);
+  color: #7a3d5c;
+  font-size: 30px;
+}
 .flink-item-name {
   padding: 19px 10px 0 0;
   height: 40px;
