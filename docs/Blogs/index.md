@@ -13,6 +13,10 @@ comments: false
 - [基于任务分类的视频理解空间推理 Benchmark 调研](research/video-spatial-reasoning-benchmarks.md)
 - [From Indoor to Open World：MLLM 空间推理差距论文解析](research/open-world-spatial-reasoning-gap.md)
 
+## Life
+
+- [一次小红书发布带来的反思](posts/2026-07-24-xiaohongshu-reflection.md)
+
 ## 其他分类
 
 - **Notes**：学习笔记、课程记录、读书记录

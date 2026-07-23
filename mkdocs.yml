@@ -128,6 +128,8 @@ nav:
       - about.md
   - Blog:
       - Blogs/index.md
+      - Life:
+          - 一次小红书发布带来的反思: Blogs/posts/2026-07-24-xiaohongshu-reflection.md
       - 科研笔记:
           - 基于任务分类的视频理解空间推理 Benchmark 调研: Blogs/research/video-spatial-reasoning-benchmarks.md
           - From Indoor to Open World：MLLM 空间推理差距论文解析: Blogs/research/open-world-spatial-reasoning-gap.md
