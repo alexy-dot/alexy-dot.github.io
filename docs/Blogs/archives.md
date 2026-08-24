@@ -8,6 +8,7 @@ comments: false
 
 ## 2026 年 8 月
 
+- [Omni-View 测评代码阅读笔记：VSI-Bench 推理流程与 BAGEL 调用链](research/omni-view-evaluation-code-notes.md)
 - [Omni-View 阅读笔记：生成与几何监督如何促进空间理解](research/omni-view-reading-notes.md)
 
 ## 2026 年 7 月
