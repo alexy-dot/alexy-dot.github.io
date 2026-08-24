@@ -6,6 +6,10 @@ comments: false
 
 # Archives
 
+## 2026 年 8 月
+
+- [Omni-View 阅读笔记：生成与几何监督如何促进空间理解](research/omni-view-reading-notes.md)
+
 ## 2026 年 7 月
 
 - [一次小红书发布带来的反思](posts/2026-07-24-xiaohongshu-reflection.md)

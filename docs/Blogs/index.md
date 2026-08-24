@@ -10,6 +10,7 @@ comments: false
 
 ## 科研笔记
 
+- [Omni-View 阅读笔记：生成与几何监督如何促进空间理解](research/omni-view-reading-notes.md)
 - [基于任务分类的视频理解空间推理 Benchmark 调研](research/video-spatial-reasoning-benchmarks.md)
 - [From Indoor to Open World：MLLM 空间推理差距论文解析](research/open-world-spatial-reasoning-gap.md)
 
