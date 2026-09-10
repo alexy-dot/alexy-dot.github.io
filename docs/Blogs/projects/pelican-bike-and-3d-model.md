@@ -16,11 +16,11 @@ comments: false
 
 <div class="model-comparison">
   <figure>
-    <img src="../../assets/images/3d-model-failure/pelican-reference.png" alt="洛丽塔角色服装参考图样，包含全身和脸部近景">
+    <img src="../../../assets/images/3d-model-failure/pelican-reference.png" alt="洛丽塔角色服装参考图样，包含全身和脸部近景">
     <figcaption>图纸。</figcaption>
   </figure>
   <figure>
-    <img src="../../assets/images/3d-model-failure/pelican-3d-result.png" alt="根据参考图样生成的 3D 角色结果">
+    <img src="../../../assets/images/3d-model-failure/pelican-3d-result.png" alt="根据参考图样生成的 3D 角色结果">
     <figcaption>做出来的结果。</figcaption>
   </figure>
 </div>
